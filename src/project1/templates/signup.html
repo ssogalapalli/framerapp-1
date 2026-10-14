@@ -1,0 +1,34 @@
+{% extends 'base.html' %}
+
+{% block title %}Sign Up | Tractor Mitra{% endblock %}
+
+{% block content %}
+<section class="page-header">
+  <h1>Sign Up</h1>
+  <p>Create your account to manage your own farm records.</p>
+</section>
+
+<div class="form-shell">
+  {% if error %}
+  <div class="alert">{{ error }}</div>
+  {% endif %}
+
+  <form method="post" class="detail-form">
+    <label>
+      <span>Username</span>
+      <input type="text" name="username" required />
+    </label>
+
+    <label>
+      <span>Password</span>
+      <input type="password" name="password" required />
+    </label>
+
+    <button type="submit" class="primary-btn full-width">Create Account</button>
+    <p class="auth-link">
+      Already have an account?
+      <a href="{{ url_for('login') }}">Login</a>
+    </p>
+  </form>
+</div>
+{% endblock %}

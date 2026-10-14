@@ -1,0 +1,782 @@
+[
+  {
+    "id": "record-81fe8c0ab693",
+    "username": "owner_actions_ab794956",
+    "customer": "Alpha",
+    "tractor": "T1",
+    "activity": "Ploughing",
+    "amount": 1200.0,
+    "notes": "First job",
+    "paid": true
+  },
+  {
+    "id": "record-cd4061a6fc98",
+    "username": "farmer_total_2de6f31d",
+    "customer": "Alice",
+    "tractor": "John Deere",
+    "activity": "Harvesting",
+    "amount": 1500.0,
+    "notes": "Harvest done",
+    "paid": false
+  },
+  {
+    "id": "record-0f41ce834ef5",
+    "username": "farmer_total_2de6f31d",
+    "customer": "Alice",
+    "tractor": "John Deere",
+    "activity": "Sowing",
+    "amount": 2500.0,
+    "notes": "Seed sowing",
+    "paid": false
+  },
+  {
+    "id": "record-15d93315314e",
+    "username": "farmer2_9199154d",
+    "customer": "Asha",
+    "tractor": "Mahindra 575",
+    "activity": "Ploughing",
+    "amount": 4500.0,
+    "notes": "Field two completed",
+    "paid": false
+  },
+  {
+    "id": "record-7c0c5ebc6984",
+    "username": "owner_actions_60aaaf6f",
+    "customer": "Alpha",
+    "tractor": "T1",
+    "activity": "Ploughing",
+    "amount": 1200.0,
+    "notes": "First job",
+    "paid": true
+  },
+  {
+    "id": "record-89918e2e35c5",
+    "username": "farmer_total_5455994d",
+    "customer": "Alice",
+    "tractor": "John Deere",
+    "activity": "Harvesting",
+    "amount": 1500.0,
+    "notes": "Harvest done",
+    "paid": false
+  },
+  {
+    "id": "record-2262adbf8255",
+    "username": "farmer_total_5455994d",
+    "customer": "Alice",
+    "tractor": "John Deere",
+    "activity": "Sowing",
+    "amount": 2500.0,
+    "notes": "Seed sowing",
+    "paid": false
+  },
+  {
+    "id": "record-3f791d946202",
+    "username": "farmer2_4159fd80",
+    "customer": "Asha",
+    "tractor": "Mahindra 575",
+    "activity": "Ploughing",
+    "amount": 4500.0,
+    "notes": "Field two completed",
+    "paid": false
+  },
+  {
+    "id": "record-18f13f112ff4",
+    "username": "owner_actions_3afff891",
+    "customer": "Alpha",
+    "tractor": "T1",
+    "activity": "Ploughing",
+    "amount": 1200.0,
+    "notes": "First job",
+    "paid": true
+  },
+  {
+    "id": "record-3de93c94753d",
+    "username": "farmer_total_56176c1d",
+    "customer": "Alice",
+    "tractor": "John Deere",
+    "activity": "Harvesting",
+    "amount": 1500.0,
+    "notes": "Harvest done",
+    "paid": false
+  },
+  {
+    "id": "record-b3d89298db1e",
+    "username": "farmer_total_56176c1d",
+    "customer": "Alice",
+    "tractor": "John Deere",
+    "activity": "Sowing",
+    "amount": 2500.0,
+    "notes": "Seed sowing",
+    "paid": false
+  },
+  {
+    "id": "record-81e8b2bab4f8",
+    "username": "farmer2_26327db8",
+    "customer": "Asha",
+    "tractor": "Mahindra 575",
+    "activity": "Ploughing",
+    "amount": 4500.0,
+    "notes": "Field two completed",
+    "paid": false
+  },
+  {
+    "id": "record-a212002fcda4",
+    "username": "owner_actions_8729956a",
+    "customer": "Alpha",
+    "tractor": "T1",
+    "activity": "Ploughing",
+    "amount": 1200.0,
+    "notes": "First job",
+    "paid": true
+  },
+  {
+    "id": "record-754a333521f0",
+    "username": "farmer_total_aee3f304",
+    "customer": "Alice",
+    "tractor": "John Deere",
+    "activity": "Harvesting",
+    "amount": 1500.0,
+    "notes": "Harvest done",
+    "paid": false
+  },
+  {
+    "id": "record-1cb02285a33c",
+    "username": "farmer_total_aee3f304",
+    "customer": "Alice",
+    "tractor": "John Deere",
+    "activity": "Sowing",
+    "amount": 2500.0,
+    "notes": "Seed sowing",
+    "paid": false
+  },
+  {
+    "id": "record-d097a469f234",
+    "username": "farmer2_98fc3be3",
+    "customer": "Asha",
+    "tractor": "Mahindra 575",
+    "activity": "Ploughing",
+    "amount": 4500.0,
+    "notes": "Field two completed",
+    "paid": false
+  },
+  {
+    "id": "record-f6179964f054",
+    "username": "owner_actions_825f45da",
+    "customer": "Alpha",
+    "tractor": "T1",
+    "activity": "Ploughing",
+    "amount": 1200.0,
+    "notes": "First job",
+    "paid": true
+  },
+  {
+    "id": "record-6ab89f03335f",
+    "username": "farmer_total_4d2b1b85",
+    "customer": "Alice",
+    "tractor": "John Deere",
+    "activity": "Harvesting",
+    "amount": 1500.0,
+    "notes": "Harvest done",
+    "paid": false
+  },
+  {
+    "id": "record-52614d5d0c2d",
+    "username": "farmer_total_4d2b1b85",
+    "customer": "Alice",
+    "tractor": "John Deere",
+    "activity": "Sowing",
+    "amount": 2500.0,
+    "notes": "Seed sowing",
+    "paid": false
+  },
+  {
+    "id": "record-d82615cc51cf",
+    "username": "farmer2_b50a98c5",
+    "customer": "Asha",
+    "tractor": "Mahindra 575",
+    "activity": "Ploughing",
+    "amount": 4500.0,
+    "notes": "Field two completed",
+    "paid": false
+  },
+  {
+    "id": "record-3b93d100635f",
+    "username": "owner_actions_b8af2941",
+    "customer": "Alpha",
+    "tractor": "T1",
+    "activity": "Ploughing",
+    "amount": 1200.0,
+    "notes": "First job",
+    "paid": true
+  },
+  {
+    "id": "record-746399c7612d",
+    "username": "farmer_total_bd448481",
+    "customer": "Alice",
+    "tractor": "John Deere",
+    "activity": "Harvesting",
+    "amount": 1500.0,
+    "notes": "Harvest done",
+    "paid": false
+  },
+  {
+    "id": "record-c4d52d4ae12d",
+    "username": "farmer_total_bd448481",
+    "customer": "Alice",
+    "tractor": "John Deere",
+    "activity": "Sowing",
+    "amount": 2500.0,
+    "notes": "Seed sowing",
+    "paid": false
+  },
+  {
+    "id": "record-de6f0566a5b2",
+    "username": "farmer2_f413105a",
+    "customer": "Asha",
+    "tractor": "Mahindra 575",
+    "activity": "Ploughing",
+    "amount": 4500.0,
+    "notes": "Field two completed",
+    "paid": false
+  },
+  {
+    "id": "record-5b1602213998",
+    "username": "owner_actions_cc1db573",
+    "customer": "Alpha",
+    "tractor": "T1",
+    "activity": "Ploughing",
+    "amount": 1200.0,
+    "notes": "First job",
+    "paid": true
+  },
+  {
+    "id": "record-0de61240759a",
+    "username": "farmer_total_0ee555b0",
+    "customer": "Alice",
+    "tractor": "John Deere",
+    "activity": "Harvesting",
+    "amount": 1500.0,
+    "notes": "Harvest done",
+    "paid": false
+  },
+  {
+    "id": "record-b8c9dac1de0b",
+    "username": "farmer_total_0ee555b0",
+    "customer": "Alice",
+    "tractor": "John Deere",
+    "activity": "Sowing",
+    "amount": 2500.0,
+    "notes": "Seed sowing",
+    "paid": false
+  },
+  {
+    "id": "record-b886db729ec4",
+    "username": "farmer2_d53487d9",
+    "customer": "Asha",
+    "tractor": "Mahindra 575",
+    "activity": "Ploughing",
+    "amount": 4500.0,
+    "notes": "Field two completed",
+    "paid": false
+  },
+  {
+    "id": "record-3d3338bf6d51",
+    "username": "owner_actions_2a119ae5",
+    "customer": "Beta",
+    "tractor": "T2",
+    "activity": "Harvesting",
+    "amount": 900.0,
+    "notes": "Second job",
+    "paid": false
+  },
+  {
+    "id": "record-27c0c5fd4d08",
+    "username": "owner_actions_2a119ae5",
+    "customer": "Alpha",
+    "tractor": "T1",
+    "activity": "Ploughing",
+    "amount": 1200.0,
+    "notes": "First job",
+    "paid": false
+  },
+  {
+    "id": "record-a8e30aa08af9",
+    "username": "farmer_total_83a10beb",
+    "customer": "Alice",
+    "tractor": "John Deere",
+    "activity": "Harvesting",
+    "amount": 1500.0,
+    "notes": "Harvest done",
+    "paid": false
+  },
+  {
+    "id": "record-8dee9fe3f43b",
+    "username": "farmer_total_83a10beb",
+    "customer": "Alice",
+    "tractor": "John Deere",
+    "activity": "Sowing",
+    "amount": 2500.0,
+    "notes": "Seed sowing",
+    "paid": false
+  },
+  {
+    "id": "record-981482279226",
+    "username": "farmer2_608fd64a",
+    "customer": "Asha",
+    "tractor": "Mahindra 575",
+    "activity": "Ploughing",
+    "amount": 4500.0,
+    "notes": "Field two completed",
+    "paid": false
+  },
+  {
+    "id": "record-713806038a7d",
+    "username": "owner_actions_38244d30",
+    "customer": "Alpha",
+    "tractor": "T1",
+    "activity": "Ploughing",
+    "amount": 1200.0,
+    "notes": "First job",
+    "paid": true
+  },
+  {
+    "id": "record-433de7e1ef3c",
+    "username": "farmer_total_37c613c9",
+    "customer": "Alice",
+    "tractor": "John Deere",
+    "activity": "Harvesting",
+    "amount": 1500.0,
+    "notes": "Harvest done",
+    "paid": false
+  },
+  {
+    "id": "record-eb3b962bed49",
+    "username": "farmer_total_37c613c9",
+    "customer": "Alice",
+    "tractor": "John Deere",
+    "activity": "Sowing",
+    "amount": 2500.0,
+    "notes": "Seed sowing",
+    "paid": false
+  },
+  {
+    "id": "record-157f07d10f7d",
+    "username": "farmer2_158fed8d",
+    "customer": "Asha",
+    "tractor": "Mahindra 575",
+    "activity": "Ploughing",
+    "amount": 4500.0,
+    "notes": "Field two completed",
+    "paid": false
+  },
+  {
+    "id": "record-f5add11042f7",
+    "username": "owner_actions_828b3dcf",
+    "customer": "Alpha",
+    "tractor": "T1",
+    "activity": "Ploughing",
+    "amount": 1200.0,
+    "notes": "First job",
+    "paid": true
+  },
+  {
+    "id": "record-64133b69cf68",
+    "username": "farmer_total_bb26038c",
+    "customer": "Alice",
+    "tractor": "John Deere",
+    "activity": "Harvesting",
+    "amount": 1500.0,
+    "notes": "Harvest done",
+    "paid": false
+  },
+  {
+    "id": "record-98af73561daa",
+    "username": "farmer_total_bb26038c",
+    "customer": "Alice",
+    "tractor": "John Deere",
+    "activity": "Sowing",
+    "amount": 2500.0,
+    "notes": "Seed sowing",
+    "paid": false
+  },
+  {
+    "id": "record-4146b4d30bce",
+    "username": "farmer2_895cd3eb",
+    "customer": "Asha",
+    "tractor": "Mahindra 575",
+    "activity": "Ploughing",
+    "amount": 4500.0,
+    "notes": "Field two completed",
+    "paid": false
+  },
+  {
+    "username": "owner_actions_05a748a3",
+    "customer": "Beta",
+    "tractor": "T2",
+    "activity": "Harvesting",
+    "amount": 900.0,
+    "notes": "Second job",
+    "id": "record-0-6b7ff3be",
+    "paid": false
+  },
+  {
+    "username": "owner_actions_05a748a3",
+    "customer": "Alpha",
+    "tractor": "T1",
+    "activity": "Ploughing",
+    "amount": 1200.0,
+    "notes": "First job",
+    "id": "record-1-5ecec16c",
+    "paid": false
+  },
+  {
+    "username": "farmer_total_67afe110",
+    "customer": "Alice",
+    "tractor": "John Deere",
+    "activity": "Harvesting",
+    "amount": 1500.0,
+    "notes": "Harvest done",
+    "id": "record-2-72395554",
+    "paid": false
+  },
+  {
+    "username": "farmer_total_67afe110",
+    "customer": "Alice",
+    "tractor": "John Deere",
+    "activity": "Sowing",
+    "amount": 2500.0,
+    "notes": "Seed sowing",
+    "id": "record-3-b2c56ddd",
+    "paid": false
+  },
+  {
+    "username": "farmer2_ac381c55",
+    "customer": "Asha",
+    "tractor": "Mahindra 575",
+    "activity": "Ploughing",
+    "amount": 4500.0,
+    "notes": "Field two completed",
+    "id": "record-4-dc20d1bd",
+    "paid": false
+  },
+  {
+    "username": "farmer_total_63c0bcd7",
+    "customer": "Alice",
+    "tractor": "John Deere",
+    "activity": "Harvesting",
+    "amount": 1500.0,
+    "notes": "Harvest done",
+    "id": "record-5-af7ba007",
+    "paid": false
+  },
+  {
+    "username": "farmer_total_63c0bcd7",
+    "customer": "Alice",
+    "tractor": "John Deere",
+    "activity": "Sowing",
+    "amount": 2500.0,
+    "notes": "Seed sowing",
+    "id": "record-6-822d5594",
+    "paid": false
+  },
+  {
+    "username": "farmer2_41e530a4",
+    "customer": "Asha",
+    "tractor": "Mahindra 575",
+    "activity": "Ploughing",
+    "amount": 4500.0,
+    "notes": "Field two completed",
+    "id": "record-7-5bccb3e1",
+    "paid": false
+  },
+  {
+    "username": "farmer_total_aad9bbc5",
+    "customer": "Alice",
+    "tractor": "John Deere",
+    "activity": "Harvesting",
+    "amount": 1500.0,
+    "notes": "Harvest done",
+    "id": "record-8-f4bd2ed8",
+    "paid": false
+  },
+  {
+    "username": "farmer_total_aad9bbc5",
+    "customer": "Alice",
+    "tractor": "John Deere",
+    "activity": "Sowing",
+    "amount": 2500.0,
+    "notes": "Seed sowing",
+    "id": "record-9-3b57183a",
+    "paid": false
+  },
+  {
+    "username": "farmer2_21805d43",
+    "customer": "Asha",
+    "tractor": "Mahindra 575",
+    "activity": "Ploughing",
+    "amount": 4500.0,
+    "notes": "Field two completed",
+    "id": "record-10-75758542",
+    "paid": false
+  },
+  {
+    "username": "bindu",
+    "customer": "Siva",
+    "tractor": "Tata",
+    "activity": "Repair",
+    "amount": 50000.0,
+    "notes": "Harvesting on 10 th oct",
+    "id": "record-11-15136d55",
+    "paid": true
+  },
+  {
+    "username": "bindu",
+    "customer": "Nirmaladevi",
+    "tractor": "500",
+    "activity": "Repair",
+    "amount": 4000.0,
+    "notes": "",
+    "id": "record-12-cc03eb54",
+    "paid": true
+  },
+  {
+    "username": "bindu",
+    "customer": "Ramesh",
+    "tractor": "Mahindra",
+    "activity": "Harvesting",
+    "amount": 1000.0,
+    "notes": "10 Acres work on 10 Oct.",
+    "id": "record-13-6065d1a1",
+    "paid": false
+  },
+  {
+    "username": "siva",
+    "customer": "Siva",
+    "tractor": "Mahindra",
+    "activity": "Repair",
+    "amount": 6000.0,
+    "notes": "",
+    "id": "record-14-1b68ca6c",
+    "paid": false
+  },
+  {
+    "username": "siva",
+    "customer": "Saanvi",
+    "tractor": "Mahindra",
+    "activity": "Harvesting",
+    "amount": 10000.0,
+    "notes": "Banana",
+    "id": "record-15-903c9694",
+    "paid": false
+  },
+  {
+    "username": "farmer_total_b2b13a1c",
+    "customer": "Alice",
+    "tractor": "John Deere",
+    "activity": "Harvesting",
+    "amount": 1500.0,
+    "notes": "Harvest done",
+    "id": "record-16-dcd222e8",
+    "paid": false
+  },
+  {
+    "username": "farmer_total_b2b13a1c",
+    "customer": "Alice",
+    "tractor": "John Deere",
+    "activity": "Sowing",
+    "amount": 2500.0,
+    "notes": "Seed sowing",
+    "id": "record-17-ffdacefd",
+    "paid": false
+  },
+  {
+    "username": "farmer2_bad2fc3e",
+    "customer": "Asha",
+    "tractor": "Mahindra 575",
+    "activity": "Ploughing",
+    "amount": 4500.0,
+    "notes": "Field two completed",
+    "id": "record-18-d1374a6f",
+    "paid": false
+  },
+  {
+    "username": "farmer_total_695e1ec6",
+    "customer": "Alice",
+    "tractor": "John Deere",
+    "activity": "Harvesting",
+    "amount": 1500.0,
+    "notes": "Harvest done",
+    "id": "record-19-4985d656",
+    "paid": false
+  },
+  {
+    "username": "farmer_total_695e1ec6",
+    "customer": "Alice",
+    "tractor": "John Deere",
+    "activity": "Sowing",
+    "amount": 2500.0,
+    "notes": "Seed sowing",
+    "id": "record-20-98f377d5",
+    "paid": false
+  },
+  {
+    "username": "farmer2_ee9a164c",
+    "customer": "Asha",
+    "tractor": "Mahindra 575",
+    "activity": "Ploughing",
+    "amount": 4500.0,
+    "notes": "Field two completed",
+    "id": "record-21-c14716c6",
+    "paid": false
+  },
+  {
+    "username": "farmer_total_53b708c8",
+    "customer": "Alice",
+    "tractor": "John Deere",
+    "activity": "Harvesting",
+    "amount": 1500.0,
+    "notes": "Harvest done",
+    "id": "record-22-46050f5c",
+    "paid": false
+  },
+  {
+    "username": "farmer_total_53b708c8",
+    "customer": "Alice",
+    "tractor": "John Deere",
+    "activity": "Sowing",
+    "amount": 2500.0,
+    "notes": "Seed sowing",
+    "id": "record-23-e6126fcb",
+    "paid": false
+  },
+  {
+    "username": "farmer2_c3c3df4c",
+    "customer": "Asha",
+    "tractor": "Mahindra 575",
+    "activity": "Ploughing",
+    "amount": 4500.0,
+    "notes": "Field two completed",
+    "id": "record-24-9f90d740",
+    "paid": false
+  },
+  {
+    "username": "farmer2_d6c71a1f",
+    "customer": "Asha",
+    "tractor": "Mahindra 575",
+    "activity": "Ploughing",
+    "amount": 4500.0,
+    "notes": "Field two completed",
+    "id": "record-25-63e20074",
+    "paid": false
+  },
+  {
+    "username": "farmer2_80032714",
+    "customer": "Asha",
+    "tractor": "Mahindra 575",
+    "activity": "Ploughing",
+    "amount": 4500.0,
+    "notes": "Field two completed",
+    "id": "record-26-5f1b6351",
+    "paid": false
+  },
+  {
+    "username": "farmer2_ba84b83f",
+    "customer": "Asha",
+    "tractor": "Mahindra 575",
+    "activity": "Ploughing",
+    "amount": 4500.0,
+    "notes": "Field two completed",
+    "id": "record-27-d3dc98aa",
+    "paid": false
+  },
+  {
+    "username": "farmer2",
+    "customer": "Asha",
+    "tractor": "Mahindra 575",
+    "activity": "Ploughing",
+    "amount": 4500.0,
+    "notes": "Field two completed",
+    "id": "record-28-b51288e2",
+    "paid": false
+  },
+  {
+    "username": "bindu",
+    "customer": "Siva",
+    "tractor": "Taar",
+    "activity": "Repair",
+    "amount": 4000.0,
+    "notes": "Repair work.",
+    "id": "record-29-8b86ac39",
+    "paid": false
+  },
+  {
+    "username": "siva",
+    "customer": "Subba Reddy",
+    "tractor": "Mahindra",
+    "activity": "Ploughing",
+    "amount": 8000.0,
+    "notes": "8 Acers",
+    "id": "record-30-e6f225a5",
+    "paid": false
+  },
+  {
+    "username": "siva",
+    "customer": "Siva",
+    "tractor": "Mahindra",
+    "activity": "Harvesting",
+    "amount": 5000.0,
+    "notes": "",
+    "id": "record-31-e042cb12",
+    "paid": false
+  },
+  {
+    "username": "farmer2",
+    "customer": "Asha",
+    "tractor": "Mahindra 575",
+    "activity": "Ploughing",
+    "amount": 4500.0,
+    "notes": "Field two completed",
+    "id": "record-32-4d1ba1c6",
+    "paid": false
+  },
+  {
+    "customer": "Asha",
+    "tractor": "Mahindra 575",
+    "activity": "Ploughing",
+    "amount": 4500.0,
+    "notes": "Field two completed",
+    "id": "record-33-831145b3",
+    "username": "",
+    "paid": false
+  },
+  {
+    "customer": "Siva",
+    "tractor": "Mahindra",
+    "activity": "Harvesting",
+    "amount": 5000.0,
+    "notes": "Harvesting of groundnuts of 5 Acre.",
+    "id": "record-34-3dbeb059",
+    "username": "",
+    "paid": false
+  },
+  {
+    "customer": "Asha",
+    "tractor": "Mahindra 575",
+    "activity": "Ploughing",
+    "amount": 4500.0,
+    "notes": "Field two completed",
+    "id": "record-35-7b1983bd",
+    "username": "",
+    "paid": false
+  },
+  {
+    "customer": "Asha",
+    "tractor": "Mahindra 575",
+    "activity": "Ploughing",
+    "amount": 4500.0,
+    "notes": "Field two completed",
+    "id": "record-36-6679452c",
+    "username": "",
+    "paid": false
+  }
+]

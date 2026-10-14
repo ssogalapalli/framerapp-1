@@ -1,0 +1,6 @@
+# Core project dependencies
+# This project includes a small farmer operations website and optional Kivy prototype.
+
+Flask>=3.0.0
+kivy>=2.3.0
+pytest>=9.0.0

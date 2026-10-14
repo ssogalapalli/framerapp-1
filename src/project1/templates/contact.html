@@ -1,0 +1,38 @@
+{% extends 'base.html' %}
+
+{% block title %}Contact Us | Tractor Mitra{% endblock %}
+
+{% block content %}
+<section class="page-header">
+  <h1>Contact Us</h1>
+  <p>We would love to hear from you.</p>
+</section>
+
+<div class="contact-grid">
+  <div class="contact-card">
+    <h3>Get in touch</h3>
+    <p>Email: support@tractormitra.com</p>
+    <p>Phone: +91 98765 43210</p>
+    <p>Address: 24 Green Field Road, Agriculture Town</p>
+  </div>
+
+  <div class="contact-card">
+    <h3>Send a message</h3>
+    <form class="detail-form">
+      <label>
+        <span>Name</span>
+        <input type="text" placeholder="Your name" />
+      </label>
+      <label>
+        <span>Email</span>
+        <input type="email" placeholder="you@example.com" />
+      </label>
+      <label>
+        <span>Message</span>
+        <textarea rows="4" placeholder="Tell us how we can help"></textarea>
+      </label>
+      <button type="button" class="primary-btn full-width">Send Message</button>
+    </form>
+  </div>
+</div>
+{% endblock %}

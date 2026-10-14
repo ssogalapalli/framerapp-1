@@ -1,0 +1,95 @@
+{% extends 'base.html' %}
+
+{% block title %}Add Details | Tractor Mitra{% endblock %}
+
+{% block content %}
+<section class="page-header">
+  <h1>Add Details</h1>
+  <p>Log a new tractor service or field activity.</p>
+</section>
+
+<div class="form-shell">
+  {% if error %}
+  <div class="alert">{{ error }}</div>
+  {% endif %}
+
+  <form method="post" class="detail-form">
+    <div class="customer-choice-group">
+      <label class="radio-option">
+        <input type="radio" name="customer_type" value="new" checked />
+        <span>New customer</span>
+      </label>
+      <label class="radio-option">
+        <input type="radio" name="customer_type" value="existing" />
+        <span>Existing customer</span>
+      </label>
+    </div>
+
+    <div class="form-grid">
+      <label id="new-customer-field">
+        <span>Customer</span>
+        <input type="text" name="customer_new" placeholder="Enter customer name" />
+      </label>
+
+      <label id="existing-customer-field" class="hidden">
+        <span>Existing customer</span>
+        <select name="customer_existing">
+          <option value="">Select customer</option>
+          {% for customer in existing_customers %}
+            <option value="{{ customer }}">{{ customer }}</option>
+          {% endfor %}
+        </select>
+      </label>
+
+      <label>
+        <span>Tractor / Vehicle</span>
+        <input type="text" name="tractor" required />
+      </label>
+
+      <label>
+        <span>Activity</span>
+        <input type="text" name="activity" placeholder="Ploughing, Harvesting, Repair" required />
+      </label>
+
+      <label>
+        <span>Amount</span>
+        <input type="number" step="0.01" name="amount" required />
+      </label>
+    </div>
+
+    <label>
+      <span>Notes</span>
+      <textarea name="notes" rows="4" placeholder="Additional details or site notes"></textarea>
+    </label>
+
+    <button type="submit" class="primary-btn full-width">Save Details</button>
+  </form>
+</div>
+
+<script>
+  const customerTypeInputs = document.querySelectorAll('input[name="customer_type"]');
+  const newCustomerField = document.getElementById('new-customer-field');
+  const existingCustomerField = document.getElementById('existing-customer-field');
+
+  function updateCustomerFields() {
+    const selected = document.querySelector('input[name="customer_type"]:checked').value;
+    if (selected === 'existing') {
+      newCustomerField.classList.add('hidden');
+      existingCustomerField.classList.remove('hidden');
+      newCustomerField.querySelector('input').removeAttribute('required');
+      existingCustomerField.querySelector('select').setAttribute('required', 'required');
+    } else {
+      newCustomerField.classList.remove('hidden');
+      existingCustomerField.classList.add('hidden');
+      newCustomerField.querySelector('input').setAttribute('required', 'required');
+      existingCustomerField.querySelector('select').removeAttribute('required');
+    }
+  }
+
+  customerTypeInputs.forEach(function (input) {
+    input.addEventListener('change', updateCustomerFields);
+  });
+
+  updateCustomerFields();
+</script>
+{% endblock %}

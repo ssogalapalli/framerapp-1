@@ -1,0 +1,17 @@
+project_name: project1
+spec_dir: specs
+plan_dir: tasks
+status: active
+workflow:
+  - propose
+  - spec
+  - design
+  - plan
+  - implement
+  - verify
+
+rules:
+  - Every feature begins with a spec in specs/.
+  - Every spec must define acceptance criteria.
+  - Every implementation must be traced to a task in tasks/.
+  - Every change must be verified with tests or checks.

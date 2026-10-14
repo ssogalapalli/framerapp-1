@@ -1,0 +1,45 @@
+{% extends 'base.html' %}
+
+{% block title %}Home | Tractor Mitra{% endblock %}
+
+{% block content %}
+<section class="hero">
+  <div class="hero-copy">
+    <span class="eyebrow">Farm operations made simple</span>
+    <h1>Keep your farm work organized and on schedule.</h1>
+    <p>
+      Tractor Mitra helps farmers and field teams record work orders, track tractor usage,
+      manage daily job details, and stay connected with clients without paperwork chaos.
+    </p>
+    <div class="cta-row">
+      <a class="primary-btn" href="{{ url_for('add_details') }}">Add New Record</a>
+      <a class="secondary-btn" href="{{ url_for('records') }}">See All Details</a>
+    </div>
+  </div>
+
+  <div class="hero-card">
+    <h3>Farm Overview</h3>
+    <ul>
+      <li>Daily tractor operations</li>
+      <li>Customer work tracking</li>
+      <li>Field activity and billing</li>
+      <li>Simple reporting</li>
+    </ul>
+  </div>
+</section>
+
+<section class="feature-grid">
+  <div class="feature-card">
+    <h3>Fast Entry</h3>
+    <p>Capture customer, tractor, and task data in seconds.</p>
+  </div>
+  <div class="feature-card">
+    <h3>Better Visibility</h3>
+    <p>See every field detail in one place with accurate records.</p>
+  </div>
+  <div class="feature-card">
+    <h3>Strong Service</h3>
+    <p>Improve communication with customers and operators.</p>
+  </div>
+</section>
+{% endblock %}

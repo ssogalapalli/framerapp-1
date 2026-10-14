@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>{% block title %}Tractor Mitra{% endblock %}</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}" />
+  </head>
+  <body>
+    <header class="topbar">
+      <div class="container nav">
+        <div class="brand">Tractor Mitra</div>
+        <nav>
+          <a href="{{ url_for('home') }}">Home</a>
+          {% if username %}
+            <a href="{{ url_for('add_details') }}">Add Details</a>
+            <a href="{{ url_for('records') }}">View Details</a>
+          {% endif %}
+          <a href="{{ url_for('contact') }}">Contact Us</a>
+          {% if username %}
+            <span class="user-pill">{{ username }}</span>
+            <a href="{{ url_for('logout') }}">Logout</a>
+          {% else %}
+            <a href="{{ url_for('login') }}">Login</a>
+            <a href="{{ url_for('signup') }}">Sign Up</a>
+          {% endif %}
+        </nav>
+      </div>
+    </header>
+
+    <main class="container main-content">
+      {% block content %}{% endblock %}
+    </main>
+
+    <footer class="footer">
+      <div class="container">© 2026 Tractor Mitra</div>
+    </footer>
+  </body>
+</html>

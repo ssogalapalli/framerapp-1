@@ -1,0 +1,86 @@
+{% extends 'base.html' %}
+
+{% block title %}All Details | Tractor Mitra{% endblock %}
+
+{% block content %}
+<section class="page-header">
+  <h1>All Details</h1>
+  <p>Complete list of saved field work and service records.</p>
+</section>
+
+<form method="post" class="filter-form">
+  <label>
+    <span>Existing customer</span>
+    <select name="customer">
+      <option value="">All customers</option>
+      {% for customer in customer_names %}
+        <option value="{{ customer }}" {% if selected_customer == customer %}selected{% endif %}>{{ customer }}</option>
+      {% endfor %}
+    </select>
+  </label>
+  <button type="submit" class="primary-btn">Apply Filter</button>
+</form>
+
+<div class="summary-grid">
+  <div class="summary-card">
+    <div class="summary-label">Owner total / TOTAL AMOUNT TO BE RECEIVED</div>
+    <div class="summary-total">₹{{ '%.2f'|format(owner_total) }}</div>
+    <div class="summary-meta">Total billed</div>
+  </div>
+
+  <div class="summary-card">
+    <div class="summary-label">Paid total / AMOUNT RECEIVED</div>
+    <div class="summary-total">₹{{ '%.2f'|format(paid_total) }}</div>
+    <div class="summary-meta">Total received</div>
+  </div>
+
+  {% for summary in customer_totals %}
+    <div class="summary-card">
+      <div class="summary-label">{{ summary.customer }} total</div>
+      <div class="summary-total">₹{{ '%.2f'|format(summary.total) }}</div>
+      <div class="summary-meta">Total billed · {{ summary.count }} work item{% if summary.count != 1 %}s{% endif %}</div>
+    </div>
+  {% endfor %}
+</div>
+
+<div class="records-list">
+  {% if records %}
+    {% for item in records %}
+      <article class="record-card">
+        <div class="record-topline">
+          <strong>{{ item.customer }}</strong>
+          <span>₹{{ '%.2f'|format(item.amount) }}</span>
+        </div>
+
+        <div class="record-status-row">
+          <span class="status-badge {% if item.paid %}paid{% else %}pending{% endif %}">
+            {% if item.paid %}Paid{% else %}Outstanding{% endif %}
+          </span>
+        </div>
+
+        <p><b>Tractor:</b> {{ item.tractor }}</p>
+        <p><b>Activity:</b> {{ item.activity }}</p>
+        {% if item.notes %}
+          <p><b>Notes:</b> {{ item.notes }}</p>
+        {% endif %}
+
+        <div class="record-actions">
+          <a class="secondary-btn compact-btn" href="{{ url_for('edit_record', record_id=item.id) }}">Update</a>
+          <form method="post" action="{{ url_for('toggle_paid', record_id=item.id) }}">
+            <button type="submit" class="secondary-btn compact-btn">
+              {% if item.paid %}Mark unpaid{% else %}Mark paid{% endif %}
+            </button>
+          </form>
+          <form method="post" action="{{ url_for('delete_record', record_id=item.id) }}" onsubmit="return confirm('Delete this record?');">
+            <button type="submit" class="danger-btn">Delete</button>
+          </form>
+        </div>
+      </article>
+    {% endfor %}
+  {% else %}
+    <div class="empty-state">
+      No details match this customer filter. <a href="{{ url_for('records') }}">Show all records</a>.
+    </div>
+  {% endif %}
+</div>
+{% endblock %}
